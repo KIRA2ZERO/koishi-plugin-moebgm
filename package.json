@@ -1,0 +1,29 @@
+{
+  "name": "koishi-plugin-moebgm",
+  "description": "返回萌番组索引",
+  "version": "1.1.1",
+  "contributors": [
+    "KIRA <914489374@qq.com>"
+  ],
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/KIRA2ZERO/koishi-plugin-moebgm",
+  "repository": {
+    "type": "github",
+    "url": "git+https://github.com/KIRA2ZERO/koishi-plugin-moebgm.git"
+  },
+  "scripts": {},
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin"
+  ],
+  "peerDependencies": {
+    "koishi": "^4.11.2"
+  }
+}
