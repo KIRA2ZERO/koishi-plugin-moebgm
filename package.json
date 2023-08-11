@@ -1,20 +1,18 @@
 {
   "name": "koishi-plugin-moebgm",
-  "description": "返回萌番组索引",
-  "version": "1.1.1",
-  "contributors": [
-    "KIRA <914489374@qq.com>"
-  ],
+  "description": "萌番组功能集成v2.0(时隔6个月的更新)!",
+  "version": "2.0.0",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
     "lib",
     "dist"
   ],
+  "author": "KIRA2ZERO <914489374@qq.com>",
   "license": "MIT",
   "homepage": "https://github.com/KIRA2ZERO/koishi-plugin-moebgm",
   "repository": {
-    "type": "github",
+    "type": "git",
     "url": "git+https://github.com/KIRA2ZERO/koishi-plugin-moebgm.git"
   },
   "scripts": {},
@@ -24,6 +22,35 @@
     "plugin"
   ],
   "peerDependencies": {
-    "koishi": "^4.11.2"
+    "koishi": "^4.13.2",
+    "koishi-plugin-puppeteer": "^3.5.0"
+  },
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "xml2js": "^0.6.0",
+    "@types/node": "^18.15.3",
+    "atsc": "^1.2.2",
+    "koishi": "^4.13.2",
+    "koishi-plugin-puppeteer": "^3.5.0",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "xml2js": "^0.6.0",
+    "koishi-plugin-puppeteer": "^3.5.0"
+  },
+  "koishi": {
+    "description": {
+      "zh": "萌番组功能集成v2.0!(时隔6个月的更新)!"
+    },
+    "service": {
+      "required": [
+        "database",
+        "puppeteer"
+      ]
+    },
+    "locales": [
+      "zh"
+    ]
   }
 }
