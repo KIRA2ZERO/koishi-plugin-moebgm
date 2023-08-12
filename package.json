@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-moebgm",
   "description": "萌番组功能集成v2.0(时隔6个月的更新)!",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -36,8 +36,7 @@
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.12",
-    "xml2js": "^0.6.0",
-    "koishi-plugin-puppeteer": "^3.5.0"
+    "xml2js": "^0.6.0"
   },
   "koishi": {
     "description": {
